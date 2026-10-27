@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "aetherales.antiphantom.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"PhantomSpawnerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
